@@ -1,0 +1,23 @@
+.products {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.product-container {
+    display: flex;
+}
+
+.product-container > * {
+    width: 200px;
+    height: 30px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.bank-balance {
+    display: flex;
+    gap: 20px;
+}
